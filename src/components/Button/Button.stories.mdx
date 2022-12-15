@@ -1,0 +1,40 @@
+import { Meta, Story } from '@storybook/addon-docs';
+
+import Button from './Button'; import Box from '../Box/Box';
+
+<Meta title="UI/Button" component={Button} />
+
+# Button
+
+Buttons allow users to take actions, and make choices, with a single tap.
+
+### Basic button
+
+<Story name="Basic Button">
+    <Box>
+        <Button>Button</Button>
+    </Box>
+</Story>
+
+### Variants
+
+The `Button` comes with two variants: primary (default) and secondary.
+
+<Story name="Button Variants">
+    <Box>
+        <Button>Primary</Button>
+        <Button variant="secondary">Secondary</Button>
+    </Box>
+</Story>
+
+### Sizes
+
+For larger or smaller buttons, use the `size` prop.
+
+<Story name="Sized Button">
+    <Box>
+        <Button size="small">Small</Button>
+        <Button>Medium</Button>
+        <Button size="large">Large</Button>
+    </Box>
+</Story>

@@ -1,0 +1,10 @@
+.box {
+  display: block;
+  border: 1px solid #E7EBF0;
+  border-radius: 8px;
+  padding: 8px;
+
+  > * {
+    margin: 8px;
+  }
+}
