@@ -1,5 +1,6 @@
 {
   "name": "docs-demo",
+  "description": "Docs demo with storybook",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
